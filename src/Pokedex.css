@@ -1,0 +1,20 @@
+.Pokedex ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.Pokedex h2 {
+    text-align: center;
+}
+
+.Pokedex-subdiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Pokedex-subdiv p {
+    text-align: center;
+}

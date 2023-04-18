@@ -1,0 +1,28 @@
+.Pokecard {
+	border-radius: 10px;
+	background-color: gainsboro;
+	padding: 10px;
+	margin: 10px;
+	width: 150px;
+	border: 1px solid gray;
+	top: 0px;
+	left: 0px;
+	box-shadow: 1px 1px 5px 0px rgba(82, 82, 82, 0.75);
+	transition: all 150ms ease-in-out;
+}
+
+.Pokecard:hover {
+	top: -3px;
+	left: -3px;
+	box-shadow: 3px 3px 15px 0px rgba(82, 82, 82, 0.85);
+}
+
+.Pokecard:active {
+	top: 2px;
+	left: 2px;
+	box-shadow: inset 0 0 10px rgba(82, 82, 82, 0.85);
+}
+
+.Pokecard h2 {
+	color: blue;
+}
